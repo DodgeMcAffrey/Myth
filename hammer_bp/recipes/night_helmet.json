@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hammer:night_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "YYY",
+      "YXY",
+      "   "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:blaze_powder"
+      },
+      "Y": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "hammer:night_helmet"
+    }
+  }
+}

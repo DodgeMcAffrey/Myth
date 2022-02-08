@@ -1,0 +1,53 @@
+{
+  "format_version": "1.12",
+  "animation_controllers": {
+    "controller.animation.hammer_thrown": {
+			"states": {
+				"default": {
+					"on_entry": [
+						"/tag @p add hammerOwner",
+						"/playsound mob.cat.meow @a"
+					],
+					"animations": [
+						"mini_delay"
+					],
+					"transitions": [ { "repeat_A": "query.any_animation_finished" } ]
+				},
+				"repeat_A": {
+					"on_entry": [
+						"/playsound mob.cat.meow @a ~ ~ ~ 2.0"
+					],
+					"transitions": [ { "repeat_B": "1" } ]
+				},
+				"repeat_B": {
+					"transitions": [ { "repeat_A": "1" } ]
+				}
+			}
+		},
+		"controller.animation.hammer_returning": {
+			"states": {
+				"default": {
+					"on_entry": [
+						"/tp ^^^0.6 facing @p[tag=hammerOwner]",
+						"/execute @p[r=0.5,tag=hammerOwner] ~ ~ ~ tag @e[type=magic:hammer_returning,c=1] add hammerReturned"
+					],
+					"transitions": [
+						{ "returned": "query.variant == 1" },
+						{ "repeat": "1" }
+					]
+				},
+				"repeat": {
+					"on_entry": [
+						"/tp ^^^0.6 facing @p[tag=hammerOwner]"
+					],
+					"transitions": [ { "default": "1" } ]
+				},
+				"returned": {
+					"animations": [
+						"hammer_returned"
+					]
+				}
+			}
+		}
+	}
+}

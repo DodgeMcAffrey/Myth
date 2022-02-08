@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "magic:hammer_returning",
+			"materials": {
+				"default": "wither_skull"
+			},
+			"textures": {
+				"default": "textures/entity/hammer2"
+			},
+			"geometry": {
+				"default": "geometry.hammer2"
+			},
+			"animations": {
+				"spin": "animation.magic.hammer.spin",
+				"trail": "controller.animation.arrow_trail"
+			},
+			"scripts": {
+				"animate": [ "spin", "trail" ]
+			},
+			"render_controllers": [ "controller.render.translucence" ],
+			"particle_effects": {
+				"particle": "magic:rainbow_trail"
+			}
+		}
+	}
+}

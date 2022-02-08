@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Dave Bearup"
+		],
+		"generated_with": {
+			"bridge": ["2.1.5"]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [1, 17, 0],
+		"uuid": "bf6309c1-de52-42f5-890b-ce86e23e6b60",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1eaeca53-d45c-4977-9b73-0a171a58d305",
+			"version": [1, 0, 0]
+		}
+	],
+    "dependencies": [
+		{
+		  "uuid": "283fdd8e-1ba8-4316-995e-39692d2ebfd6",
+		  "version": [1, 0, 0]
+		}
+	  ]
+}
