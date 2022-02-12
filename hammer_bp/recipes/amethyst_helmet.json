@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hammer:amethyst_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "YYY",
+      "YXY",
+      "   "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:blaze_powder"
+      },
+      "Y": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "hammer:amethyst_helmet"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
 	"format_version": "1.10.0",
 	"animations": {
-		"animation.player.night_helmet": {
+		"animation.player.amethyst_helmet": {
 			"timeline": {
 				"0.0": [
-					"/effect @s night_vision 1 0"
+					"/effect @s night_vision 15 0 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -13,7 +13,7 @@
 		"animation.player.amethyst_chest": {
 			"timeline": {
 				"0.0": [
-					"/effect @s resistance 1 0"
+					"/effect @s resistance 15 0 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -22,7 +22,25 @@
 		"animation.player.amethyst_boots": {
 			"timeline": {
 				"0.0": [
-					"/effect @s speed 1 0"
+					"/effect @s speed 15 5 true"
+				]
+			},
+			"animation_length": 0.05,
+			"loop":true
+		},
+		"animation.player.amethyst_leggings": {
+			"timeline": {
+				"0.0": [
+					"/effect @s jump_boost 15 5 true"
+				]
+			},
+			"animation_length": 0.05,
+			"loop":true
+		},
+		"animation.player.amethyst_complete": {
+			"timeline": {
+				"0.0": [
+					"/effect @s strength 15 5 true"
 				]
 			},
 			"animation_length": 0.05,

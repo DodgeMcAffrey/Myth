@@ -5,14 +5,17 @@
     "hammer":{
       "textures":"textures/items/hammer"
     },
-    "night_helmet": {
-      "textures":"textures/items/night_helmet"
+    "amethyst_helmet": {
+      "textures":"textures/items/amethyst_helmet"
     },
     "amethyst_chest": {
       "textures": "textures/items/amethyst_chest"
     },
     "amethyst_boots": {
       "textures": "textures/items/amethyst_boots"
+    },
+    "amethyst_leggings": {
+      "textures": "textures/items/amethyst_leggings"
     }
   }
 }
