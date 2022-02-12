@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hammer:adventure_chest"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      "YXY",
+      "Y Y"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:leather"
+      },
+      "Y": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "hammer:adventure_boots"
+    }
+  }
+}
