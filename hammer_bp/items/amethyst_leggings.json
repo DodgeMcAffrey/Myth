@@ -10,7 +10,7 @@
                 "texture": "amethyst_leggings"
             },
             "minecraft:armor": {
-                "protection": 6
+                "protection": 5
             },
             "minecraft:display_name": {
                 "value": "Amethyst Leggings"
@@ -24,7 +24,7 @@
                 "slot": "armor_legs"
             },
             "minecraft:durability": {
-                "max_durability": 375
+                "max_durability": 225
             },
             "minecraft:repairable": {
                 "repair_items": [

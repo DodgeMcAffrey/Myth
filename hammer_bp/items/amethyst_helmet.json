@@ -10,7 +10,7 @@
                 "texture": "amethyst_helmet"
             },
             "minecraft:armor": {
-                "protection": 3
+                "protection": 2
             },
             "minecraft:display_name": {
                 "value": "Amethyst Helmet"
@@ -24,7 +24,7 @@
                 "slot": "armor_head"
             },
             "minecraft:durability": {
-                "max_durability": 250
+                "max_durability": 165
             },
             "minecraft:repairable": {
                 "repair_items": [

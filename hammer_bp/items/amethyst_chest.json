@@ -10,7 +10,7 @@
                 "texture": "amethyst_chest"
             },
             "minecraft:armor": {
-                "protection": 7
+                "protection": 6
             },
             "minecraft:display_name": {
                 "value": "Amethyst Chestplate"
@@ -24,7 +24,7 @@
                 "slot": "armor_torso"
             },
             "minecraft:durability": {
-                "max_durability": 475
+                "max_durability": 240
             },
             "minecraft:repairable": {
                 "repair_items": [

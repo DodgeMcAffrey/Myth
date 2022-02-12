@@ -10,7 +10,8 @@
 				"amethyst_helmet": "animation.player.amethyst_helmet",
 				"amethyst_chest": "animation.player.amethyst_chest",
 				"amethyst_boots": "animation.player.amethyst_boots",
-				"amethyst_leggings": "animation.player.amethyst_leggings"
+				"amethyst_leggings": "animation.player.amethyst_leggings",
+				"amethyst_complete": "animation.player.amethyst_complete"
 			},
 			"scripts": {
 				"animate": [
@@ -27,7 +28,7 @@
 						"amethyst_leggings": "query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings')"
 					},
 					{
-						"amethyst_complete": "query.equiped_item_any_tag('slot.armor.head','hammer:amethyst_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots')"
+						"amethyst_complete": "query.equipped_item_any_tag('slot.armor.head','hammer:amethyst_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots')"
 					}
 				]
 			}
