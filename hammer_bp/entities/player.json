@@ -7,12 +7,20 @@
 			"is_summonable": false,
 			"is_experimental": false,
 			"animations": {
-				"night_helmet": "animation.player.night_helmet"
+				"night_helmet": "animation.player.night_helmet",
+				"amethyst_chest": "animation.player.amethyst_chest",
+				"amethyst_boots": "animation.player.amethyst_boots"
 			},
 			"scripts": {
 				"animate": [
 					{
 						"night_helmet": "query.equipped_item_any_tag('slot.armor.head','hammer:night_helmet')"
+					},
+					{
+						"amethyst_chest": "query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest')"
+					},
+					{
+						"amethyst_boots": "query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots')"
 					}
 				]
 			}

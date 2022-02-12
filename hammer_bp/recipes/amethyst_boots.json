@@ -2,26 +2,26 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "hammer:night_helmet"
+      "identifier": "hammer:amethyst_chest"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "YYY",
+      "   ",
       "YXY",
-      "   "
+      "Y Y"
     ],
     "key": {
       "X": {
-        "item": "minecraft:ender_eye"
+        "item": "minecraft:blaze_powder"
       },
       "Y": {
         "item": "minecraft:amethyst_shard"
       }
     },
     "result": {
-      "item": "hammer:night_helmet"
+      "item": "hammer:amethyst_boots"
     }
   }
 }

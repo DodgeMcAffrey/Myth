@@ -7,6 +7,12 @@
     },
     "night_helmet": {
       "textures":"textures/items/night_helmet"
+    },
+    "amethyst_chest": {
+      "textures": "textures/items/amethyst_chest"
+    },
+    "amethyst_boots": {
+      "textures": "textures/items/amethyst_boots"
     }
   }
 }
