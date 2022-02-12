@@ -2,18 +2,18 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "hammer:amethyst_chest",
+            "identifier": "hammer:adventure_chest",
             "category": "equipment"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "amethyst_chest"
+                "texture": "adventure_chest"
             },
             "minecraft:armor": {
-                "protection": 6
+                "protection": 7
             },
             "minecraft:display_name": {
-                "value": "Amethyst Chestplate"
+                "value": "Adventure Chestplate"
             },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.chestplate"
@@ -24,7 +24,7 @@
                 "slot": "armor_torso"
             },
             "minecraft:durability": {
-                "max_durability": 240
+                "max_durability": 475
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -36,14 +36,11 @@
                     }
                 ]
             },
-            "tag:hammer:amethyst_chest": {
+            "tag:hammer:adventure_chest": {
             },
             "minecraft:wearable": {
                 "dispensable": true,
                 "slot": "slot.armor.chest"
-            },
-            "minecraft:knockback_resistance": {
-                "protection": 0.5
             }
         }    
     }

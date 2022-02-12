@@ -16,6 +16,18 @@
     },
     "amethyst_leggings": {
       "textures": "textures/items/amethyst_leggings"
+    },
+    "adventure_helmet": {
+      "textures":"textures/items/adventure_helmet"
+    },
+    "adventure_chest": {
+      "textures": "textures/items/adventure_chest"
+    },
+    "adventure_boots": {
+      "textures": "textures/items/adventure_boots"
+    },
+    "adventure_leggings": {
+      "textures": "textures/items/adventure_leggings"
     }
   }
 }
