@@ -33,7 +33,7 @@
 						"amethyst_leggings": "query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings')"
 					},
 					{
-						"amethyst_complete": "query.equipped_item_any_tag('slot.armor.head','hammer:amethyst_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots')"
+						"amethyst_complete": "query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings') && (query.equipped_item_any_tag('slot.armor.head','hammer:adventure_helmet') || query.equipped_item_any_tag('slot.armor.head','hammer:amethyst_helmet')) && (query.equipped_item_any_tag('slot.armor.feet','hammer:adventure_boots') || query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots'))"
 
 					},
 					{
@@ -49,7 +49,7 @@
 						"adventure_leggings": "query.equipped_item_any_tag('slot.armor.legs','hammer:adventure_leggings')"
 					},
 					{
-						"adventure_complete": "query.equipped_item_any_tag('slot.armor.head','hammer:adventure_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:adventure_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:adventure_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:adventure_boots')"
+						"adventure_complete": "query.equipped_item_any_tag('slot.armor.chest','hammer:adventure_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:adventure_leggings') && (query.equipped_item_any_tag('slot.armor.head','hammer:adventure_helmet') || query.equipped_item_any_tag('slot.armor.head','hammer:amethyst_helmet')) && (query.equipped_item_any_tag('slot.armor.feet','hammer:adventure_boots') || query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots'))"
 					}
 				]
 			}

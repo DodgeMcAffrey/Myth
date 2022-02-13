@@ -75,11 +75,11 @@
 		},
 		"animation.player.adventure_leggings": {
 			"timeline": {
-				"0.0": [
-					"/effect @s jump_boost 15 3 true"
+				"0.5": [
+					"/effect @s absorption 75 1 true"
 				]
 			},
-			"animation_length": 0.05,
+			"animation_length": 60,
 			"loop":true
 		},
 		"animation.player.adventure_complete": {
