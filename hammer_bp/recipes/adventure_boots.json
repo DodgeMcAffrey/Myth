@@ -2,19 +2,19 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "hammer:adventure_chest"
+      "identifier": "hammer:adventure_boots"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
       "   ",
-      "YXY",
+      "X X",
       "Y Y"
     ],
     "key": {
       "X": {
-        "item": "minecraft:leather"
+        "item": "minecraft:feather"
       },
       "Y": {
         "item": "minecraft:amethyst_shard"

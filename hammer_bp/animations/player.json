@@ -67,7 +67,7 @@
 		"animation.player.adventure_boots": {
 			"timeline": {
 				"0.0": [
-					"/effect @s slow_falling 15 5 true"
+					"/effect @s slow_falling 15 2 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -76,7 +76,7 @@
 		"animation.player.adventure_leggings": {
 			"timeline": {
 				"0.0": [
-					"/effect @s jump_boost 15 5 true"
+					"/effect @s jump_boost 15 3 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -85,7 +85,7 @@
 		"animation.player.adventure_complete": {
 			"timeline": {
 				"0.0": [
-					"/effect @s haste 15 5 true"
+					"/effect @s haste 15 3 true"
 				]
 			},
 			"animation_length": 0.05,

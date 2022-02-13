@@ -8,13 +8,13 @@
       "crafting_table"
     ],
     "pattern": [
-      "YYY",
       "YXY",
+      "Y Y",
       "   "
     ],
     "key": {
       "X": {
-        "item": "minecraft:stick"
+        "item": "minecraft:pufferfish"
       },
       "Y": {
         "item": "minecraft:amethyst_shard"

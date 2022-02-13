@@ -10,11 +10,11 @@
     "pattern": [
       "YYY",
       "Y Y",
-      "YXY"
+      "X X"
     ],
     "key": {
       "X": {
-        "item": "minecraft:stick"
+        "item": "minecraft:rabbit_foot"
       },
       "Y": {
         "item": "minecraft:amethyst_shard"

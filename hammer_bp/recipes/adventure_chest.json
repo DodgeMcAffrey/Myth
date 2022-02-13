@@ -8,13 +8,13 @@
       "crafting_table"
     ],
     "pattern": [
+      "Y Y",
       "YXY",
-      "YYY",
       "YYY"
     ],
     "key": {
       "X": {
-        "item": "minecraft:stick"
+        "item": "minecraft:magma_cream"
       },
       "Y": {
         "item": "minecraft:amethyst_shard"
