@@ -33,7 +33,11 @@
                             "minecraft:amethyst_shard"
                         ],
                         "repair_amount": 60
-                    }
+                    },
+					{
+						"items": ["hammer:amethyst_leggings"],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					}
                 ]
             },
             "tag:hammer:amethyst_leggings": {
