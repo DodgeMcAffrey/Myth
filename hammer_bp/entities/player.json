@@ -11,14 +11,12 @@
 				"amethyst_chest": "animation.player.amethyst_chest",
 				"amethyst_boots": "animation.player.amethyst_boots",
 				"amethyst_leggings": "animation.player.amethyst_leggings",
-<<<<<<< HEAD
-				"amethyst_complete": "animation.player.amethyst_complete"
-=======
+				"amethyst_complete": "animation.player.amethyst_complete",
 				"adventure_helmet": "animation.player.adventure_helmet",
 				"adventure_chest": "animation.player.adventure_chest",
 				"adventure_boots": "animation.player.adventure_boots",
-				"adventure_leggings": "animation.player.adventure_leggings"
->>>>>>> a464d7b77aa164df4866178b9cdf70e3dede22fe
+				"adventure_leggings": "animation.player.adventure_leggings",
+				"adventure_complete": "animation.player.adventure_complete"
 			},
 			"scripts": {
 				"animate": [
@@ -35,10 +33,8 @@
 						"amethyst_leggings": "query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings')"
 					},
 					{
-<<<<<<< HEAD
 						"amethyst_complete": "query.equipped_item_any_tag('slot.armor.head','hammer:amethyst_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots')"
-=======
-						"amethyst_complete": "query.equiped_item_any_tag('slot.armor.head','hammer:amethyst_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:amethyst_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:amethyst_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:amethyst_boots')"
+
 					},
 					{
 						"adventure_helmet": "query.equipped_item_any_tag('slot.armor.head','hammer:adventure_helmet')"
@@ -53,8 +49,7 @@
 						"adventure_leggings": "query.equipped_item_any_tag('slot.armor.legs','hammer:adventure_leggings')"
 					},
 					{
-						"adventure_complete": "query.equiped_item_any_tag('slot.armor.head','hammer:adventure_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:adventure_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:adventure_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:adventure_boots')"
->>>>>>> a464d7b77aa164df4866178b9cdf70e3dede22fe
+						"adventure_complete": "query.equipped_item_any_tag('slot.armor.head','hammer:adventure_helmet') && query.equipped_item_any_tag('slot.armor.chest','hammer:adventure_chest') && query.equipped_item_any_tag('slot.armor.legs','hammer:adventure_leggings') && query.equipped_item_any_tag('slot.armor.feet','hammer:adventure_boots')"
 					}
 				]
 			}
