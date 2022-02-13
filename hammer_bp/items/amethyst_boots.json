@@ -10,7 +10,7 @@
                 "texture": "amethyst_boots"
             },
             "minecraft:armor": {
-                "protection": 3
+                "protection": 2
             },
             "minecraft:display_name": {
                 "value": "Amethyst Boots"
@@ -24,7 +24,7 @@
                 "slot": "armor_feet"
             },
             "minecraft:durability": {
-                "max_durability": 375
+                "max_durability": 195
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -41,6 +41,9 @@
             "minecraft:wearable": {
                 "dispensable": true,
                 "slot": "slot.armor.feet"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.5
             }
         }    
     }

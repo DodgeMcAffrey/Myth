@@ -13,7 +13,7 @@
 		"animation.player.amethyst_chest": {
 			"timeline": {
 				"0.0": [
-					"/effect @s resistance 15 0 true"
+					"/effect @s resistance 15 2 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -22,7 +22,7 @@
 		"animation.player.amethyst_boots": {
 			"timeline": {
 				"0.0": [
-					"/effect @s speed 15 5 true"
+					"/effect @s speed 15 2 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -31,7 +31,7 @@
 		"animation.player.amethyst_leggings": {
 			"timeline": {
 				"0.0": [
-					"/effect @s jump_boost 15 5 true"
+					"/effect @s jump_boost 15 3 true"
 				]
 			},
 			"animation_length": 0.05,
@@ -40,7 +40,7 @@
 		"animation.player.amethyst_complete": {
 			"timeline": {
 				"0.0": [
-					"/effect @s strength 15 5 true"
+					"/effect @s strength 15 2 true"
 				]
 			},
 			"animation_length": 0.05,
