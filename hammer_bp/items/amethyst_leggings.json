@@ -47,7 +47,7 @@
                 "slot": "slot.armor.legs"
             },
             "minecraft:knockback_resistance": {
-                "protection": 0.5
+                "protection": 0.2
             }
         }    
     }

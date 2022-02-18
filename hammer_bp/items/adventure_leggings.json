@@ -45,6 +45,9 @@
             "minecraft:wearable": {
                 "dispensable": true,
                 "slot": "slot.armor.legs"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.2
             }
         }    
     }

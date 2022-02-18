@@ -10,22 +10,22 @@
 	},
 	"header": {
 		"name": "pack.name",
-		"description": "pack.description",
+		"description": "v1.0.4 - Updated Knockback",
 		"min_engine_version": [1, 17, 0],
 		"uuid": "283fdd8e-1ba8-4316-995e-39692d2ebfd6",
-		"version": [1, 0, 0]
+		"version": [1, 0, 4]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "fad9e0f3-7336-437e-9edc-0e24da805d0d",
-			"version": [1, 0, 0]
+			"version": [1, 0, 4]
 		}
 	],
     "dependencies": [
 		{
 		  "uuid": "bf6309c1-de52-42f5-890b-ce86e23e6b60",
-		  "version": [1, 0, 0]
+		  "version": [1, 0, 4]
 		}
 	  ]
 }
