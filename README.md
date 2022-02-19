@@ -1,3 +1,6 @@
-# Myth
-Minecraft weapons of mythology
-An addon for Minecraft Bedrock
+# Mythic Gear Addon for Minecraft
+
+
+
+This addon adds two new Amethyst-based armor sets to Minecraft.
+
