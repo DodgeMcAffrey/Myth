@@ -4,3 +4,11 @@
 
 This addon adds two new Amethyst-based armor sets to Minecraft.
 
+##Implemented
+
+###Adventure Armor
+
+-Adventure Helmet - provides water breathing while equipped
+
+-Adventure Chestplate - provides fire resistance while equipped
+
